@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anil Kasa - Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        /* CSS styles */
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #121212;
+            color: #fff;
+            overflow-x: hidden;
+        }
+
+        header {
+            background-color: #121212;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+        }
+
+        nav {
+            background-color: #121212;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px;
+            transition: color 0.3s ease;
+        }
+
+        nav a:hover {
+            color: #00ff00;
+        }
+
+        section {
+            padding: 20px;
+            margin: 20px;
+            background-color: rgba(18, 18, 18, 0.8);
+            box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+        }
+
+        footer {
+            background-color: #121212;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+        }
+
+        /* Glitch effect */
+        @keyframes glitch {
+            0% {
+                text-shadow: 0.05em 0 0 rgba(255, 0, 0, 0.75), -0.05em 0 0 rgba(0, 255, 0, 0.75), 0 0 0.05em rgba(0, 0, 255, 0.75);
+            }
+            14% {
+                text-shadow: 0.05em 0 0 rgba(255, 0, 0, 0.75), -0.05em 0 0 rgba(0, 255, 0, 0.75), 0 0 0.05em rgba(0, 0, 255, 0.75);
+            }
+            15% {
+                text-shadow: -0.05em 0 0 rgba(255, 0, 0, 0.75), 0.05em 0 0 rgba(0, 255, 0, 0.75), 0 0 0.05em rgba(0, 0, 255, 0.75);
+            }
+            19% {
+                text-shadow: -0.05em 0 0 rgba(255, 0, 0, 0.75), 0.05em 0 0 rgba(0, 255, 0, 0.75), 0 0 0.05em rgba(0, 0, 255, 0.75);
+            }
+            20% {
+                text-shadow: 0.05em 0 0 rgba(0, 0, 0, 0.75);
+            }
+            21% {
+                text-shadow: 0.05em 0 0 rgba(0, 0, 0, 0.75);
+            }
+            24% {
+                text-shadow: 0.05em 0 0 rgba(0, 0, 0, 0.75);
+            }
+            25% {
+                text-shadow: -0.05em 0 0 rgba(0, 0, 0, 0.75);
+            }
+            29% {
+                text-shadow: -0.05em 0 0 rgba(0, 0, 0, 0.75);
+            }
+            30% {
+                text-shadow: 0.05em 0 0 rgba(0, 0, 0, 0.75), -0.05em 0 0 rgba(0, 0, 0, 0.75), 0 0 0.05em rgba(0, 0, 0, 0.75);
+            }
+            35% {
+                text-shadow: 0.05em 0 0 rgba(0, 0, 0, 0.75), -0.05em 0 0 rgba(0, 0, 0, 0.75), 0 0 0.05em rgba(0, 0, 0, 0.75);
+            }
+            36% {
+                text-shadow: none;
+            }
+            100% {
+                text-shadow: none;
+            }
+        }
+
+        h1, h2, h3 {
+            animation: glitch 5s infinite;
+        }
+
+        /* Additional styles */
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            padding: 0 20px;
+        }
+
+        .project-card {
+            background-color: #1f1f1f;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+        }
+
+        .project-card h3 {
+            color: #00ff00;
+        }
+
+        .project-card p {
+            color: #fff;
+        }
+
+        .project-card a {
+            color: #00ff00;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .project-card a:hover {
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Anil Kasa</h1>
+            <p>Software Developer | UI/UX Designer | Tech Enthusiast</p>
+        </div>
+    </header>
+    <nav>
+        <div class="container">
+            <a href="#about">About</a>
+            <a href="#project">Projects</a>
+            <a href="#skills">Skills</a>
+            <a href="#timeline">Timeline</a>
+            <a href="#knowledge sharing">Knowledge Sharing</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>Hello! I'm Anil Kasa, a passionate software developer, UI/UX designer, and tech enthusiast. I love crafting elegant solutions to complex problems and creating intuitive user experiences. With several years of experience in the field, I'm dedicated to staying updated with the latest technologies and best practices.</p>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <h2>Experience</h2>
+            <div class="project-card">
+                <h3>Senior Software Engineer, Tech Innovations</h3>
+                <p>Designed and developed scalable software solutions for enterprise clients, focusing on performance and reliability.</p>
+            </div>
+            <div class="project-card">
+                <h3>UI/UX Designer, Design Studio</h3>
+                <p>Collaborated with cross-functional teams to create visually stunning and user-friendly interfaces for web and mobile applications.</p>
+            </div>
+        </div>
+    </section>
+    <section id="skills">
+        <div class="container">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML/CSS/</li>
+            <li>JavaScript</li>
+            <li>UI/UX Design</li>
+            <li>Software Development</li>
+            <li>Cybersecurity and Ethical Hacking</li>
+            <li>Web Design</li>
+        </ul>
+    </div>
+    </section>
+    <section id="project">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project-card">
+                <h3>Enterprise Management System</h3>
+                <p>Developed a comprehensive management system for streamlining operations and enhancing productivity in large organizations.</p>
+            </div>
+            <div class="project-card">
+                <h3>Mobile App Redesign</h3>
+                <p>Redesigned an existing mobile app interface to improve usability and increase user engagement, resulting in a significant boost in app downloads.</p>
+            </div>
+        </div>
+    </section>
+    <section id="timeline">
+        <div class="container">
+            <h2>Project Timeline</h2>
+            <table>
+                <tr>
+                    <th>Task</th>
+                    <th>Start Date</th>
+                    <th>End Date</th>
+                    <th>Duration</th>
+                </tr>
+                <tr>
+                    <td>Create wireframes</td>
+                    <td>April 8</td>
+                    <td>April 9</td>
+                    <td>2 days</td>
+                </tr>
+                <tr>
+                    <td>Write content</td>
+                    <td>April 10</td>
+                    <td>April 14</td>
+                    <td>5 days</td>
+                </tr>
+                <tr>
+                    <td>Code the website (HTML,CSS,JavaScript)</td>
+                    <td>April 15</td>
+                    <td>April 18</td>
+                    <td>4 days</td>
+                </tr>
+                <tr>
+                    <td>Test website</td>
+                    <td>April 19</td>
+                    <td>April 22</td>
+                    <td>4 days</td>
+                </tr>
+                <tr>
+                    <td>Gather feedback</td>
+                    <td>April 23</td>
+                    <td>April 24</td>
+                    <td>2 days</td>
+                </tr>
+                <tr>
+                    <td>Launch website</td>
+                    <td>April 25</td>
+                    <td>April 28</td>
+                    <td>4 days</td>
+                </tr>
+            </table>
+        </section>
+        <section id="knowledge sharing">
+            <div class="container">
+            <h2>Knowledge Sharing Section</h2>
+            <h2>Topics</h2>
+            <ul>
+                <li><a href="#">Ethical Hacking Techniques</a></li>
+                <li><a href="#">Cybersecurity Best Practices</a></li>
+                <li><a href="#">Digital Privacy Tips</a></li>
+            </ul>
+    
+            <h2>Featured Content</h2>
+            <div>
+                <h3>Ethical Hacking Techniques</h3>
+                <p>Explore step-by-step tutorials on various ethical hacking techniques to enhance your cybersecurity skills.</p>
+                <p><a href="#">Advanced Hacking and Penetration Testing</a></p>
+                <p><a href="#">Web Application Security Fundamentals</a></p>
+                <p><a href="#">Network Security Protocols</a></p>
+            </div>
+    
+            <div>
+                <h3>Cybersecurity Best Practices</h3>
+                <p>Discover essential tips and strategies to protect your online presence and data from cyber threats.</p>
+                <p><a href="#">Data Encryption Methods</a></p>
+                <p><a href="#">Password Management Tools</a></p>
+                <p><a href="#">Incident Response Planning</a></p>
+            </div>
+    
+            <div>
+                <h3>Digital Privacy Tips</h3>
+                <p>Learn how to safeguard your personal information and maintain privacy in the digital age.</p>
+                <p><a href="#">Privacy Settings for Social Media</a></p>
+                <p><a href="#">Secure Communication Platforms</a></p>
+                <p><a href="#">Online Identity Protection</a></p>
+            </div>
+        </div>
+    </div>
+    </section>
+    <section id="contact">
+        <div class="container">
+            <h2>Contact</h2>
+            <p>Email: anil.kasa@yahoo.com</p>
+            <p>Phone: +1 (526) 584-8474</p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/anil-kasa" target="_blank">https://www.linkedin.com/in/anil-kasa</a></p>
+            <p>Location: City, Country</p>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Anil Kasa. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
